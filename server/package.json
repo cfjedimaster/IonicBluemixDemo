@@ -1,32 +1,32 @@
 {
-   "author": "IBM",
-	"engines": {
-		"node": "0.10.28"
-	},
-   "dependencies": {
-      "express": "4.*",
-      "body-parser": "*",
-      "ibmbluemix":"*",
-      "ibmdata":"*",
-			"watson-developer-cloud": "*",
-			"formidable":"*"
-   },
-   "devDependencies": {
+  "author": "IBM",
+  "engines": {
+    "node": "0.10.28"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "express": "4.*",
+    "formidable": "*",
+    "ibmbluemix": "*",
+    "ibmdata": "*",
+    "string": "^3.3.0",
+    "watson-developer-cloud": "*"
+  },
+  "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-simple-mocha": "0.4.0",
-    "load-grunt-tasks": "~0.3.0",   
+    "load-grunt-tasks": "~0.3.0",
     "time-grunt": "~0.2.9",
     "chai": "*",
     "mocha": "*",
     "when": "*",
     "request": "*",
-    "assert":"*"
+    "assert": "*"
   },
-  "repository" : { 
-  },
+  "repository": {},
   "scripts": {
-	"start": "node app.js"
-  },  
+    "start": "node app.js"
+  },
   "description": "Starts a server which listens for user modules invocation requests.",
   "license": "free",
   "main": "app.js"
