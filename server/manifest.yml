@@ -1,0 +1,14 @@
+applications:
+- services:
+  - IonicBluemixDemo-MAS
+  - IonicBluemixDemo-Push
+  - IonicBluemixDemo-MobileData
+  - IonicBluemixDemo-Mobile Quality Assurance
+  disk_quota: 1024M
+  host: ionicbluemixdemo
+  name: IonicBluemixDemo
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 128M
