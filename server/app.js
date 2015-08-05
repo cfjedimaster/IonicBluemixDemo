@@ -1,3 +1,5 @@
+var string = require('string'); // load string.js first to avoid https://github.com/jprichardson/string.js/issues/160
+
 var express 	= require('express'),
 	app     	= express(),
 	ibmbluemix 	= require('ibmbluemix'),
